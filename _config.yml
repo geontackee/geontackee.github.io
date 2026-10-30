@@ -26,7 +26,7 @@ author:
   name             : "Geon Tack Lee"
   pronouns         : # example: "she/her"  
   bio              : "M.S. student at KAIST AI · Efficient AI, Model Compression, Computer Vision"
-  location         : "Daejeon, South Korea"
+  location         : "Seoul, South Korea"
   employer         : "KAIST"
   uri              : # URL
   email            : "geontack@kaist.ac.kr" 
@@ -227,7 +227,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false # papers link to external URLs (paperurl) instead of their own pages
     permalink: /:collection/:path/
   portfolio:
     output: true
@@ -248,7 +248,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -264,7 +264,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _publications
   - scope:
@@ -273,7 +273,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -282,7 +282,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
@@ -291,7 +291,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 
 # Sass/SCSS
