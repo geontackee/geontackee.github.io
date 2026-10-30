@@ -26,7 +26,7 @@ author:
   name             : "Geon Tack Lee"
   pronouns         : # example: "she/her"  
   bio              : "M.S. student at KAIST AI · Efficient AI, Model Compression, Computer Vision"
-  location         : "South Korea"
+  location         : "Daejeon, South Korea"
   employer         : "KAIST"
   uri              : # URL
   email            : "geontack@kaist.ac.kr" 
@@ -89,6 +89,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  preprints:
+    title: 'Preprints / Under Review'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
